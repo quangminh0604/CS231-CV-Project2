@@ -14,11 +14,7 @@ This repository provides a PyTorch implementation of the research paper, [Deep-E
 
 ## Datasets
 This implementation uses the following datasets:
-- [FER2013](https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data)
-- [CK+](https://ieeexplore.ieee.org/document/5543262)
-- [JAFFE](https://www.researchgate.net/publication/220013358_The_japanese_female_facial_expression_jaffe_database)
-- [FERG](https://homes.cs.washington.edu/~deepalia/papers/deepExpr_accv2016.pdf)
-
+- [facial-expression-dataset](https://www.kaggle.com/datasets/aadityasinghal/facial-expression-dataset)
 ## Prerequisites
 Make sure you have the following libraries installed:
 - PyTorch >= 1.1.0
@@ -34,13 +30,6 @@ This repository is organized as follows:
 - [`deep_emotion`](/deep_emotion.py): Defines the model class.
 - [`data_loaders`](/data_loaders.py): Contains the dataset class.
 - [`generate_data`](/generate_data.py): Sets up the [dataset](https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data).
-
-## Usage
-Watch this informative [video](https://www.youtube.com/watch?v=yN7qfBhfGqs) created by [DeepLearning_by_PhDScholar](https://www.youtube.com/channel/UCUv49cJ3xwr1NXxl9qIJ7kA/about) for a comprehensive guide on using this implementation.
-
-### Data Preparation
-1. Download the dataset from [Kaggle](https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data).
-2. Decompress `train.csv` and `test.csv` into the `./data` folder.
 
 ### How to Run
 **Setup the Dataset**
